@@ -1,0 +1,109 @@
+.logo{
+    float: left;
+}
+.karkas{
+    position: relative;
+    width: 1440px;
+    height: 2335px;
+    background: transparent;
+    float: left;
+}
+.first_part{
+    position: absolute;
+    width: 1280px;
+    height: 49px;
+    left: 80px;
+    top: 65px;
+    background: white;
+    float: left;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    float: right;
+}
+.navbar ul{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar ul li{
+    list-style-type: none;
+    float: left;
+    padding: 4px;
+    margin: 13px 13px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 9px;
+    color: #07043b;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.main::before{
+    content: "All your files in one secure location, accessible anywhere.";
+    position: absolute;
+    width: 627px;
+    height: 120px;
+    left: 80px;
+    top: 266px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+}
+.main::after{
+content: "Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family and co-workers.";
+position: absolute;
+width: 585px;
+height: 75px;
+left: 88px;
+top: 400px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 24px;
+letter-spacing: 0.50px;
+color: #07043b
+}
+.main img{
+    position: absolute;
+    left: 700px;
+    top: 150px;
+}
+.main input{
+    position: absolute;
+    width: 320px;
+    height: 45px;
+    top: 500px;
+    left: 80px;
+    border: 0.625px solid #07043b;
+    border-radius: 3px;
+}
+.main .btn{
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    top: 500px;
+    left: 430px;
+    border-radius: 3px;
+    background: #2f65f8;
+    border: #2f65f8;
+    color: white;
+    font-family: 'Raleway';
+    cursor: pointer;
+}
+.btn:hover{
+    cursor: pointer;
+    transition: 0.7s;
+}
+.navbar ul li:hover{
+    cursor: pointer;
+    transition: 0.7s;
+}
